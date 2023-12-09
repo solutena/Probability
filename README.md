@@ -4,7 +4,7 @@
 
 ## 사용방법
 
-# Add
+### Add
 
 ```
 Probability<string> probability = new Probability<string>();
@@ -21,7 +21,7 @@ string random = probability.Get();
 
 `Get` 혹은 `InverseGet` 함수를 통해 랜덤한 타겟을 가져온다.
 
-# Get
+### Get
 
 `Get()` 함수로 확률에 기반한 랜덤한 타겟을 가져온다.
 
@@ -37,7 +37,7 @@ Get 함수는 `probability`값을 모두 더한 총합에서 `probability`값의
 
 `"D"` : 40%
 
-# InverseGet
+### InverseGet
 `InverseGet()` 함수로 가중치가 높을수록 확률이 낮은 랜덤한 타겟을 가져올 수 있다.
 
 `InverseGet(seed)` 시드값을 넣어 항상 같은 결과를 얻을 수 있다.
