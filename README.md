@@ -1,4 +1,4 @@
-`# Probability<T>
+# Probability<T>
 
 확률을 구현하기 위한 클래스이다
 
