@@ -29,9 +29,8 @@ public class Probability<T>
 		ProbabilityList.Add(new ProbabilityElement(target, probability));
 	}
 
-	public T Get(int seed)
+	public T Get()
 	{
-		Random.InitState(seed);
 		float cumulativeProbability = 0;
 		float randomValue = Random.Range(0f, ProbabilityList.Sum(x => x.Probability));
 		foreach (var element in ProbabilityList)
@@ -43,9 +42,14 @@ public class Probability<T>
 		return default;
 	}
 
-	public T InverseGet(int seed)
+	public T Get(int seed)
 	{
 		Random.InitState(seed);
+		return Get();
+	}
+
+	public T InverseGet()
+	{
 		float cumulativeProbability = 0;
 		float randomValue = Random.Range(0f, ProbabilityList.Sum(x => x.InverseProbability));
 		foreach (var element in ProbabilityList)
@@ -55,5 +59,11 @@ public class Probability<T>
 				return element.Target;
 		}
 		return default;
+	}
+
+	public T InverseGet(int seed)
+	{
+		Random.InitState(seed);
+		return InverseGet();
 	}
 }
