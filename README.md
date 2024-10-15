@@ -4,7 +4,7 @@
 
 ## Add
 
-```
+```csharp
 Probability<string> probability = new Probability<string>();
 probability.Add("A", 1);
 probability.Add("B", 2);
