@@ -1,7 +1,7 @@
 {
-  "name": "com.solutena.observable",
+  "name": "com.solutena.probability",
   "version": "1.0.0",
-  "displayName": "Observable",
+  "displayName": "Probability",
   "author": {
     "name": "Solutena"
   }
