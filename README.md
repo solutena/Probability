@@ -34,3 +34,18 @@ Get 함수는 `probability`값을 모두 더한 총합에서 `probability`값의
 `"C"` : 30%
 
 `"D"` : 40%
+
+## InverseGet
+`InverseGet()` 함수로 가중치가 높을수록 확률이 낮은 랜덤한 타겟을 가져올 수 있습니다.
+
+`InverseGet(seed)` 시드값을 넣어 항상 같은 결과를 얻을 수 있습니다.
+
+InverseGet 함수는 `1/probability`값을 모두 더한 총합에서 `1/probability`값의 가중치를 가집니다.
+
+`"A"` : 48%
+
+`"B"` : 24%
+
+`"C"` : 16%
+
+`"D"` : 12%
