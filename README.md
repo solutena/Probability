@@ -1,6 +1,20 @@
 # Probability<T>
 
-확률을 구현하기 위한 클래스입니다.
+가중치 확률을 구현하기 위한 클래스입니다.
+
+# 설치
+
+![image](https://github.com/user-attachments/assets/b391a76a-22e7-41c0-b2e1-cf593f763b4f)
+
+1. URL 복사
+
+![image](https://github.com/user-attachments/assets/f4060f1d-94aa-4a49-b001-e7a5e01316e1)
+
+2. 패키지 매니저에서 Add Package from Git URL 선택
+   
+![image](https://github.com/user-attachments/assets/0e53e578-f0c1-4399-893f-c3028ee6befe)
+
+3.  복사한 URL로 설치
 
 ## Add
 
