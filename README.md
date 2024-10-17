@@ -31,7 +31,7 @@ string random = probability.Get();
 
 두번째 인자에 확률을 추가하고
 
-`Get` 혹은 `InverseGet` 함수를 통해 랜덤한 타겟을 가져옵니다.
+`Get` 함수를 통해 랜덤한 타겟을 가져옵니다.
 
 ## Get
 
